@@ -1,0 +1,232 @@
+#header {
+  background-image: none;
+  background-color: #1c0920;
+}
+
+#header:after {
+  transition: none !important;
+  transition-delay: 0s !important;
+}
+
+.new-section {
+  margin-top: 60px;
+  border-top: 2px solid #df7366;
+}
+
+.project-image {
+  width: 25%;
+  display: inline-block;
+  float: left;
+}
+
+.project-image img {
+  width: 100%;
+}
+
+.horizontal-image {
+  width: 50%;
+  margin: 20px auto;
+  border-radius: 20px;
+  display: block;
+}
+
+.centered-image {
+  width: 50%;
+  margin: 0 auto;
+  /* border-radius: 20px; */
+  display: block;
+}
+
+.project-text {
+  width: 72%;
+  float: right;
+}
+
+.project-text-center {
+  width: 50%;
+  justify-content: center;
+  text-align: center;
+}
+
+.project-video {
+  display: block;
+  margin: 22px auto 0 auto;
+  width: 560px;
+  height: 315px;
+}
+
+.about-me-text {
+  background-color: blueviolet;
+}
+
+.sections {
+  padding: 4.5em 11em !important;
+  text-align: center;
+}
+
+.circle-buttons {
+  display: inline-block;
+  border-radius: 100%;
+  width: 2.5em;
+  height: 2.5em;
+  line-height: 4.5em;
+  text-align: center;
+  font-size: 1.25em;
+  padding: 0;
+  background: #df7366 url(../../images/icons8-double-down-50.png);
+  color: #fff;
+  background-size: 19px 17px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid white;
+}
+
+.circle-buttons:hover {
+  color: #fff;
+  background-color: #f0f0f0;
+}
+
+#subsection-headers {
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+
+#header .icon:before {
+  color: white;
+}
+
+#header a {
+  display: inline-block;
+  border: none;
+  margin-right: 10px;
+}
+
+.project-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  border: none;
+}
+
+.center-link {
+  text-align: center;
+  display: block !important;
+  border: none;
+}
+
+#features .row {
+  border: 2px solid #df7366;
+  border-radius: 16px;
+  margin-top: 0px;
+}
+
+.curve-radius {
+  border-radius: 38px;
+}
+
+#footer {
+  padding: 1em 0 0em 0;
+}
+
+#skills.sections {
+  padding: 4.5em 0em !important;
+  text-align: center;
+  background-color: #df7366;
+}
+
+.wrapper.style1 {
+  margin: -60px 0 2em 0;
+  padding: 6em 0 6em 0;
+  background-color: white;
+}
+
+#tech-container {
+  display: inline-block;
+  border-radius: 100%;
+  width: 5.5em;
+  height: 5.5em;
+  padding: 0;
+  background: #e8e8e8 url(../../images/chevron-down-outline.svg);
+  color: #fff;
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.button.circled.scrolly {
+  background-image: url(../../images/NesImage.png);
+  width: 9em !important;
+  height: 9em !important;
+  background-size: 15em 10em;
+  background-repeat: no-repeat;
+  background-position: -3em 0em;
+}
+
+.button.circled.scrolly div {
+  height: 22px;
+  line-height: 20px;
+  position: absolute;
+  width: 77%;
+  bottom: 5px;
+  color: white;
+  margin: 1px auto;
+  left: 12%;
+  font-size: 0.74em;
+  border-radius: 3px;
+  opacity: 1;
+  background-color: #1c0920;
+  display: none;
+}
+.button.circled.scrolly:hover {
+  filter: grayscale(1);
+}
+.button.circled.scrolly:hover div {
+  display: block;
+}
+
+.icon:hover:before {
+  color: #df7366 !important;
+}
+
+ul.menu {
+  height: 1em;
+  line-height: 1em;
+  list-style: none;
+  padding-left: 0;
+  color: dimgrey;
+}
+
+#footer {
+  position: relative;
+  overflow: hidden;
+  padding: 2em 0 6em -2em;
+  background: lightgray;
+  color: #fff;
+}
+
+.reel a img {
+  width: 10em;
+  margin: 0 auto;
+}
+
+.carousel article .image {
+  margin-bottom: 1em;
+}
+
+.reel article > div {
+  float: left;
+  width: 100%;
+  height: 74px;
+}
+
+.clarifai {
+  height: 200px;
+}
+
+.reel article > a,
+.reel article header h3 a {
+  cursor: auto;
+}
+
+#skills #subsection-headers {
+  padding-bottom: 25px;
+}
